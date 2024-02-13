@@ -175,8 +175,9 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="30dp"
                 android:layout_margin="16dp"
+                android:drawableEnd="@drawable/custom_drawable"
                 android:background="@drawable/rounded_corner_edittext"
-                android:hint="Enter Country"
+                android:hint="Select Country"
                 android:padding="15dp" />
 
             <!-- city text -->
@@ -198,8 +199,9 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="30dp"
                 android:layout_margin="16dp"
+                android:drawableEnd="@drawable/custom_drawable"
                 android:background="@drawable/rounded_corner_edittext"
-                android:hint="Enter City"
+                android:hint="Select City"
                 android:padding="15dp" />
 
             <!-- password text -->
