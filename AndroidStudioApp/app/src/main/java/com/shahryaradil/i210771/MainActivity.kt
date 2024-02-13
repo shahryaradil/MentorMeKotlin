@@ -1,5 +1,6 @@
 package com.shahryaradil.i210771
 
+import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
 import androidx.activity.ComponentActivity
@@ -19,7 +20,7 @@ class MainActivity : ComponentActivity() {
         setContentView(R.layout.activity_main)
         findViewById<Button>(R.id.get_started).setOnClickListener()
         {
-
+            startActivity(Intent(this, LoginActivity::class.java))
         }
     }
 
