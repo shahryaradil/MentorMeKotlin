@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FFFFF"
+    android:backgroundTint="#FFFFFF"
     tools:context=".LoginActivity">
 
     <ImageView
@@ -96,8 +96,8 @@
             <!-- email field -->
             <EditText
                 android:id="@+id/editTextUsername"
-                android:layout_width="380"
-                android:textSize="16"
+                android:layout_width="380dp"
+                android:textSize="16dp"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="30dp"
                 android:layout_margin="16dp"
@@ -121,8 +121,8 @@
             <!-- password field -->
             <EditText
                 android:id="@+id/editTextPassword"
-                android:layout_width="380"
-                android:textSize="15"
+                android:layout_width="380dp"
+                android:textSize="15dp"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="6dp"
                 android:layout_marginLeft="15dp"
